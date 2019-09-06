@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Revisão</title>
+	<meta charset="UTF-8">
+	<link href="css.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+<div id="fundo">
+
+<section id="logo">
+	<img src="logo.png"/>
+	
+	<form>
+		<input type="text" id="empregado" name="empregado" placeholder="Empregado" autofocus class="entradas">
+		<br><br>
+		<input type="number" id="salario" name="salario" placeholder="Salário Contribuição (R$)" class="entradas">
+		<br><br><br>
+		<label id="meses"></label>
+			<select id="meses">
+			<option selected>Janeiro</option>
+			<option>Fevereiro</option>
+			<option>Março</option>
+			<option>Abril</option>
+			<option>Maio</option>
+			<option>Junho</option>
+			<option>Julho</option>
+			<option>Agosto</option>
+			<option>Setembro</option>
+			<option>Outubro</option>
+			<option>Novembro</option>
+			<option>Dezembro</option>
+			</select>
+			</form>
+			<br>
+	
+<div class="tabelas">	
+<table>
+	<div class="titulo"> Tabela INSS 2018</div>
+	<tr>
+	<td>Salário-Contribuição</td>
+	<td>Aliquota</td>
+	</tr>
+	
+	<tr>
+	<td>Até R$: 1.693,72 </td>
+	<td>8%</td>
+	</tr>
+	
+	<tr>
+	<td>De R$:1.693,73 até R$:2.822,90</td>
+	<td>9%</td>
+	</tr>
+	
+	<tr>
+	<td>De R$: 2.822,91 até R$:5.645.80</td>
+	<td>11%</td>
+	</tr>
+	
+	</table>
+	<br>
+	<button type="button" id="calcular" name="calcular">Calcular INSS</button>
+	<p class="vermelho">Valor do INSS calculado:<span id="resultado"></span></p>
+</div>	
+	
+</section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

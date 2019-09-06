@@ -1,0 +1,48 @@
+/*#fundo{
+	background-color:#000;
+}*/
+#logo{
+	width:599px;
+	height:auto;
+	border:2px #000 solid;
+	margin-left:auto;
+	margin-right:auto;
+}
+#logo form input{
+	width:100%;
+	border:none;
+	border-bottom:1px #000 solid;
+	
+}
+#meses{
+	border:none;
+	border-top:1px #000 solid;
+	border-bottom:1px #000 solid;
+	width:599px;
+	
+}
+#logo img{
+	width:580px;
+}
+.entradas{
+	width:100%;
+	margin-top:20px;
+}
+.titulo{
+	background-color:#696969;
+	width:599px;
+	text-align:center;
+	color:#FFF;
+}
+.tabelas table{
+	border:1px #000;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	color:#6E6E6E;
+}
+#calcular{
+	width:599px;
+	height:25px;
+	background-color:#808080;
+}
